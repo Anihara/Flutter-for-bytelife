@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 class HomePage extends StatelessWidget {
-  final bool isFemale = false;
+  final bool city = true;
   final String name = 'Shashi Kushwaha';
   final num temp = 18;
   final String place = 'Shimla';
