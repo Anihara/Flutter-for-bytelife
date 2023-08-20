@@ -1,5 +1,5 @@
 import 'package:alice/pages/login_page.dart';
-
+import 'package:google_fonts/google_fonts.dart';
 import 'pages/Home_Page.dart';
 import 'package:flutter/material.dart';
 
@@ -12,11 +12,14 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       themeMode: ThemeMode.light,
-      theme: ThemeData(primarySwatch: Colors.red),
+      theme: ThemeData(
+        primarySwatch: Colors.red,
+        fontFamily: GoogleFonts.gabriela().fontFamily,
+        ),
       darkTheme: ThemeData(
         brightness: Brightness.dark,
       ),
-      initialRoute: "/home",
+      initialRoute: "/",
       routes: {
         "/": (context) => LoginPage(),
         "/home": (context) => HomePage(),
