@@ -9,7 +9,7 @@ class LoginPage extends StatelessWidget {
           Image.asset("assets/images/login_image.png",
            fit: BoxFit.cover),
            SizedBox(
-            height: 15.0
+            height: 15.0,
             ),
           Text("MushiMushi x Arigato",
               style: TextStyle(fontSize: 28, fontWeight: FontWeight.bold)),
@@ -39,11 +39,8 @@ class LoginPage extends StatelessWidget {
             ElevatedButton (onPressed: (){},
                    child: Text('Login')),
               ],
-
-                ),),
-                
-                  
-              
+              ),
+            ),
         ],
       ),
     );
