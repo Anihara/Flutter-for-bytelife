@@ -12,19 +12,18 @@ class _LoginPageState extends State<LoginPage> {
   final _formkey = GlobalKey<FormState>();
 
   moveToHome(BuildContext context) async {
-    if (_formkey.currentState!.validate()){    
+    if (_formkey.currentState!.validate()) {
       setState(() {
-      changeButton = true;
-    });
-    await Future.delayed(Duration(seconds: 1));
-    await Navigator.pushNamed(context, MyRoutes.homeroute);
-    setState(
-      () {
-        changeButton = false;
-      },
-    );
-   }
-
+        changeButton = true;
+      });
+      await Future.delayed(Duration(seconds: 1));
+      await Navigator.pushNamed(context, MyRoutes.homeroute);
+      setState(
+        () {
+          changeButton = false;
+        },
+      );
+    }
   }
 
   @override
@@ -42,7 +41,7 @@ class _LoginPageState extends State<LoginPage> {
               SizedBox(
                 height: 15.0,
               ),
-              Text("Hey Hey Hey $name",
+              Text("Hey Hey Hey",
                   style: TextStyle(fontSize: 33, fontWeight: FontWeight.bold)),
               SizedBox(
                 height: 12.0,

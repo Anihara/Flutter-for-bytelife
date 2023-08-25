@@ -1,3 +1,5 @@
+import 'package:alice/widgets/drawer.dart';
+import 'package:alice/xyxy.dart';
 import 'package:flutter/material.dart';
 
 class HomePage extends StatelessWidget {
@@ -18,7 +20,7 @@ class HomePage extends StatelessWidget {
               "Welcome to $name ki padhai bhaiyo, and I'm a Male living in $place at $temp degree celcious temperature"),
         ),
       ),
-      drawer: Drawer(),
+      drawer: MyDrawer(),
     );
   }
 }
