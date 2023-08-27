@@ -81,6 +81,18 @@ class MyDrawer extends StatelessWidget {
                 style: TextStyle(color: Colors.white),
               ),
             ),
+            ListTile(
+              leading:
+                  Icon(CupertinoIcons.airplane, color: Colors.white),
+                  onTap: () {
+                    Navigator.pushReplacementNamed(context,'/');
+                  },
+              title: Text(
+                "Aeroplane Mode",
+                textScaleFactor: 1.3,
+                style: TextStyle(color: Colors.white),
+              ),
+            ),
           ],
         ),
       ),
