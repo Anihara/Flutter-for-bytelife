@@ -12,13 +12,11 @@ class HomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("Catalog App",
-        ),
+        title: Text("Catalog App"),
       ),
       body: Center(
         child: Container(
-          child: Text(
-              "Welcome to $name ki padhai bhaiyo, and I'm a Male living in $place at $temp degree celcious temperature"),
+          child: Text("inventory.dart"),
         ),
       ),
       drawer: MyDrawer(),

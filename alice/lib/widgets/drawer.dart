@@ -25,7 +25,6 @@ class MyDrawer extends StatelessWidget {
                     BoxDecoration(color: Color.fromARGB(255, 220, 105, 34)),
                 accountName: Text("Hehehe"),
                 accountEmail: Text("heheh9211@gmail.com"),
-                // currentAccountPicture: Image.network(imageurl),
                 currentAccountPicture: CircleAvatar(
                   backgroundImage: NetworkImage(imageurl),
                 ),
