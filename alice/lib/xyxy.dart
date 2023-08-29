@@ -4,6 +4,7 @@ import 'package:alice/widgets/themes.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'pages/Home_Page.dart';
 import 'package:flutter/material.dart';
+import 'package:meta/dart2js.dart';
 
 void main() {
   runApp(MyApp());

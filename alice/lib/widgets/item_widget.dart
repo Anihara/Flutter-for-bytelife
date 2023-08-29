@@ -10,7 +10,7 @@ class ItemWidget extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Card(
-      shape: StadiumBorder(),
+      shape: Border.symmetric(),
       // elevation: 0.0,
       child: ListTile(
         onTap: () {
