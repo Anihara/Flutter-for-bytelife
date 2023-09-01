@@ -17,4 +17,9 @@ class MyTheme {
   static ThemeData darkTheme(BuildContext context) => ThemeData(
         brightness: Brightness.dark,
       );
+
+  static Color creamColor = Color.fromARGB(255, 148, 91, 5);
+  static Color darkBluishColor = Color.fromRGBO(24, 34, 78, 1);
+  static Color hentai1 = const Color.fromARGB(255, 230, 245, 68);
+  static Color whiiittte = Color.fromARGB(244, 223, 207, 207);
 }
